@@ -1,0 +1,410 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.cover-pic img {
+	width: 100%;
+	height: 531px;
+	position: relative;
+	display: block;
+}
+
+.cover-pic h1 {
+	font-family: Lustria;
+	font-size: 80px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 255px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.mainMenu {
+	width: 100%;
+	height: 70px;
+	background-color: #272729;
+	position: relative;
+	display: block;
+}
+
+.mainMenu h2 {
+	position: absolute;
+	float: left;
+	color: #ffffff;
+	font-family: Lustria;
+	font-size: 28px;
+	top: 22px;
+	left: 15px;
+}
+
+.mainMenu ul {
+	float: right;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 16px;
+	right: 3px;
+	position: absolute;
+	top: 20px;
+}
+
+.mainMenu li {
+	display: inline;
+	padding: 13px;
+}
+
+.mainMenu img {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.section-pic img {
+	width: 100%;
+	height: 385px;
+	position: relative;
+	display: block;
+}
+
+.section-button {
+	background-color: #272729;
+	width: 160px;
+	height: 50px;
+	position: absolute;
+	left: 605px;
+	display: block;
+	color: #ffffff;
+	font-family: Lustria;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-top: -25px;
+}
+
+.section-button h3 {
+	margin: auto;
+	text-align: center;
+	position: relative;
+	display: block;
+	top: 15px;
+}
+
+.section-info {
+	width: 100%;
+	height: 190px;
+	background-color: #ffffff;
+}
+
+.section-info .header {
+	font-size: 25px; 
+	width: 670px;
+	font-family: Lustria;
+	color: #272729;
+	display: block;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.section-info .explanation {
+	display: block;
+	position: relative;
+	color: #BBBBBF;
+	font-size: 19px;
+	width: 790px;
+	text-align: center;
+	font-family: Lato;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.school .section-info {
+	height: 530px;
+}
+
+.school .header {
+	margin-bottom: 50px;
+}
+
+.offerings {
+	width: 1800px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.engaging-lessons {
+	float: left;
+	width: 400px;
+}
+
+.engaging-lessons img {
+	width: 400px;
+}
+
+.collaborative-workshops {
+	float: left;
+	width: 400px;
+}
+
+.collaborative-workshops img {
+	width: 400px;
+}
+
+.exceptional-productions {
+	float: left;
+	width: 400px;
+}
+
+.exceptional-productions img {
+	width: 400px;
+}
+
+.offerings h1 {
+	font-size: 25px; 
+	width: 400px;
+	font-family: Lustria;
+	color: #272729;
+	display: block;
+	position: relative;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.offerings p {
+	font-size: 19px; 
+	width: 400px;
+	font-family: Lustria;
+	color: #BBBBBF;
+	display: block;
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+.events .section-info {
+	height: 770px;
+}
+
+.events .upcoming-events {
+	margin-top: 50px;
+}
+
+.events h1 {
+	font-size: 25px; 
+	width: 370px;
+	font-family: Lustria;
+	color: #272729;
+	display: block;
+	position: relative;
+	left: 100px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.upcoming-events img {
+	width: 500px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display: block;
+}
+
+.contact .explanation p {
+	font-size: 25px; 
+	width: 670px;
+	font-family: Lustria;
+	color: #BBBBBF;
+	display: block;
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+.inquiry .section-button {
+	background-color: #BBBBBF;
+	width: 150px;
+	height: 35px;
+	position: absolute;
+	left: 605px;
+	display: block;
+	color: #ffffff;
+	font-family: Lustria;
+	font-size: 12px;
+	border-radius: 5px;
+	margin-top: -20px;
+}
+
+.inquiry .section-button h3 {
+	margin: auto;
+	text-align: center;
+	position: relative;
+	display: block;
+	top: 13px;
+}
+
+.inquiry {
+	height: 500px;
+	width: 100%;
+	background-color: #F5F5F5;
+	position: relative;
+	display: block;
+}
+
+.form-inputs {
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.form-inputs input {
+	font-size: 22px;
+	font-family: Lustria;
+	color: #BBBBBF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 400px;
+	margin-top: 20px;
+}
+
+.form-inputs textarea {
+	font-size: 22px;
+	font-family: Lustria;
+	color: #BBBBBF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 400px;
+	margin-top: 20px;
+}
+
+select {
+	font-size: 35px;
+}
+
+.form-inputs p {
+	margin-top: 20px;
+}
+
+.drop-down-form {
+	margin-top: 20px;
+}
+
+.footer {
+	height: 200px;
+	width: 100%;
+	background-color: #272729;
+	position: relative;
+	display: block;
+}
+
+.bottom {
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.bottom img {
+	width: 250px;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
