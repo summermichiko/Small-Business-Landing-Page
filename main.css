@@ -47,18 +47,14 @@ table {
 	border-spacing: 0;
 }
 
-.topPic {
+.cover-pic img {
 	width: 100%;
 	height: 531px;
 	position: relative;
 	display: block;
-	background-image: url("images/cover_pic.jpg");
-	background-repeat: no-repeat;
-	background-position: -25px;
-	background-size: 1400px;
 }
 
-.top h1 {
+.cover-pic h1 {
 	font-family: Lustria;
 	font-size: 80px;
 	width: 100%;
@@ -70,22 +66,12 @@ table {
 }
 
 .mainMenu {
-	position: absolute;
 	width: 100%;
 	height: 70px;
 	background-color: #272729;
+	position: relative;
 	display: block;
-	z-index: 1;
 }
-
-.fixed {  
-    position: fixed;     
-    top: 0;      
-    width: 100%;  
-    left: 0;    
-    z-index: 100;  
-    border-top: 0;
-}  
 
 .mainMenu h2 {
 	position: absolute;
@@ -94,7 +80,7 @@ table {
 	font-family: Lustria;
 	font-size: 28px;
 	top: 22px;
-	left: 20px;
+	left: 15px;
 }
 
 .mainMenu ul {
@@ -102,27 +88,23 @@ table {
 	color: #ffffff;
 	font-family: Lato;
 	font-size: 16px;
-	right: 5px;
+	right: 3px;
 	position: absolute;
 	top: 20px;
 }
 
 .mainMenu li {
 	display: inline;
-	padding: 15px;
+	padding: 13px;
+}
+
+.mainMenu img {
+	width: 30px;
+	height: 30px;
 	vertical-align: middle;
 }
 
-.mainMenu li img {
-	width: 40px;
-	height: 40px;
-	vertical-align: middle;
-}
-
-.about .section-pic {
-	background-image: url('Images/Our_Courses_Pic.png');
-	background-position: -20px;
-	background-size: 1600px;
+.section-pic img {
 	width: 100%;
 	height: 385px;
 	position: relative;
@@ -181,82 +163,69 @@ table {
 	margin-top: 30px;
 }
 
-.school .section-pic {
-	background-image: url('Images/Our_School.jpg');
-	background-repeat: no-repeat;
-	background-position: -35px;
-	background-size: 1400px;
-	width: 100%;
-	height: 385px;
-	position: relative;
+.school .section-info {
+	height: 850px;
+}
+
+.school .header {
+	margin-bottom: 50px;
+}
+
+.offerings {
+	width: 1800px;
+	margin-left: auto;
+	margin-right: auto;
 	display: block;
 }
 
-.school .section-info {
-	height: 530px;
+.engaging-lessons {
+	float: left;
+	width: 400px;
 }
 
-.school .offerings {
-	width: 940px;
-	position: absolute;
-	padding-top: 30px;
-	padding: 30px;
-	margin-right: 195px;
-	margin-left: 195px;
+.engaging-lessons img {
+	width: 400px;
 }
 
-.school .offerings li {
-	display: inline-block;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 20px;
-	padding-right: 5px;
-	padding-left: 5px;
+.collaborative-workshops {
+	float: left;
+	width: 400px;
 }
 
-.school .offerings img {
-	width: 300px;
-	border-radius: 5px;
+.collaborative-workshops img {
+	width: 400px;
 }
 
-.school .offerings h1 {
+.exceptional-productions {
+	float: left;
+	width: 400px;
+}
+
+.exceptional-productions img {
+	width: 400px;
+}
+
+.offerings h1 {
 	font-size: 25px; 
-	width: 300px;
+	width: 400px;
 	font-family: Lustria;
 	color: #272729;
+	display: block;
+	position: relative;
+	margin: auto;
 	margin-top: 30px;
-	padding-bottom: 20px;
 	text-align: center;
 }
 
-.school .offerings p {
+.offerings p {
 	font-size: 19px; 
-	width: 300px;
+	width: 400px;
 	font-family: Lustria;
 	color: #BBBBBF;
+	display: block;
+	position: relative;
+	margin: auto;
 	text-align: center;
-}
-
-.courses .section-pic {
-	background-image: url('images/About_Pic.jpg'); 
-	background-repeat: no-repeat;
-	background-position: -28px;
-	background-size: 1400px;
-	width: 100%;
-	height: 385px;
-	position: relative;
-	display: block;
-}
-
-.events .section-pic {
-	background-image: url('Images/final_pic.jpg');
-	background-repeat: no-repeat;
-	background-position: -28px -35px;
-	background-size: 1400px;
-	width: 100%;
-	height: 385px;
-	position: relative;
-	display: block;
 }
 
 .events .section-info {
@@ -267,7 +236,7 @@ table {
 	margin-top: 50px;
 }
 
-.upcoming-events h1 {
+.events h1 {
 	font-size: 25px; 
 	width: 370px;
 	font-family: Lustria;
@@ -288,15 +257,6 @@ table {
 	display: block;
 }
 
-.contact iframe {
-	background-repeat: no-repeat;
-	background-size: 1400px;
-	width: 100%;
-	height: 385px;
-	position: relative;
-	display: block;
-}
-
 .contact .explanation p {
 	font-size: 25px; 
 	width: 670px;
@@ -306,14 +266,6 @@ table {
 	position: relative;
 	margin: auto;
 	text-align: center;
-}
-
-.inquiry {
-	height: 500px;
-	width: 100%;
-	background-color: #F5F5F5;
-	position: relative;
-	display: block;
 }
 
 .inquiry .section-button {
@@ -338,10 +290,18 @@ table {
 	top: 13px;
 }
 
+.inquiry {
+	height: 500px;
+	width: 100%;
+	background-color: #F5F5F5;
+	position: relative;
+	display: block;
+}
+
 .form-inputs {
 	margin-top: 30px;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 70px;
 }
 
 .form-inputs input {
@@ -366,46 +326,37 @@ table {
 	margin-top: 20px;
 }
 
-#choiceText p {
-	font-size: 18px; 
-	width: 670px;
-	font-family: Lustria;
-	color: #272729;
-	display: block;
-	position: relative;
-	margin: auto;
-	text-align: center;
-	margin-top: 30px;
+select {
+	font-size: 35px;
+}
+
+.form-inputs p {
+	margin-top: 20px;
 }
 
 .drop-down-form {
-	margin-top: 15px;
-}
-
-#submitButton {
-	width: 120px;
-	color: white;
-	background-color: 
+	margin-top: 20px;
 }
 
 .footer {
-	height: 60px;
+	height: 200px;
 	width: 100%;
 	background-color: #272729;
 	position: relative;
 	display: block;
 }
 
-.footer p {
-	color: white;
-	text-align: center;
-	padding-top: 22px;
-	font-size: 15px;
-	font-family: Lustria;;
+.bottom {
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
-
-
+.bottom img {
+	width: 250px;
+	float:left;
+}
 
 
 
