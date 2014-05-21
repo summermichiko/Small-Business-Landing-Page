@@ -115,6 +115,26 @@ table {
 	vertical-align: middle;
 }
 
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited { 
+	color: #FFFFFF; 
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #FFFFFF; 
+	text-decoration: none;
+}
+
+a:active { 
+	color: #FFFFFF; 
+	text-decoration: none;
+}
+
 .mainMenu li img {
 	width: 30px;
 	height: 30px;

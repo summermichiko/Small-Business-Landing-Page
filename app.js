@@ -1,5 +1,4 @@
 $(document).ready(function() { 
-
 	var fixedMainMenu = $(".mainMenu").offset().top;
 	var fixedMenu = function() {
 		var scrollTop = $(window).scrollTop();
@@ -10,15 +9,27 @@ $(document).ready(function() {
 			$(".mainMenu").removeClass("fixed");
 		}
 	}; 
-
 	$(window).scroll(function() {
 		fixedMenu();
 	});
-
-	$("#branchStudios").click(function() {
-		window.scrollTo(0,0);
+	$(function() {
+    	$('ul li a').bind('click',function(event){
+    		event.preventDefault();
+        	var anchor = $(this);
+        	$('html, body').stop().animate({
+            	scrollTop: $(anchor.attr('href')).offset().top - 133
+        	}, 700);
+    	});
 	});
-	
+	$(function() {
+    	$('#branchstudios').bind('click',function(event){
+    		event.preventDefault();
+        	var anchor = $(this);
+        	$('html, body').stop().animate({
+            	scrollTop: $(anchor.attr('href')).offset().top
+        	}, 500);
+    	});
+	});
 }); 
 
 
