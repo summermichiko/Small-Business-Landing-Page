@@ -48,7 +48,7 @@ table {
 }
 
 .topPic {
-	width: 1500px;
+	width: 100%;
 	height: 500px;
 	position: relative;
 	background-image: url("Images/trial.jpg");
